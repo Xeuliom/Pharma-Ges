@@ -1,0 +1,21 @@
+├── core/
+│   └── inventory_manager.py   # Handles inventory operations (add/edit/remove medicines)
+│
+├── database/
+│   └── db_setup.py            # Sets up the SQLAlchemy database schema (tables, initial data)
+│
+├── sales_logs/
+│   └── 2025-05-14_sales.txt   # Text log of all sales made on this date
+│
+├── UI/
+│   ├── add_edit_medicine.py   # UI for adding or editing medicine entries (admin only)
+│   ├── admin_window.py        # Main window for admin actions (e.g., inventory, view sales)
+│   ├── all_sales_window.py    # Displays all recorded sales in a searchable format
+│   ├── login_window.py        # Login interface for admin and users
+│   ├── user_window.py         # Main window for guest/user operations (e.g., view/buy)
+│   └── welcome_window.py      # Welcome screen shown on app start
+│
+├── logo.png                   # Application logo (possibly used in UI)
+├── main.py                    # Entry point of the application
+├── pharmacy.db                # SQLAlchemy database file
+└── requirements.txt           # List of dependencies for the project
